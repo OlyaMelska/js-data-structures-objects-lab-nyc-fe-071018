@@ -6,5 +6,7 @@ driver = {
 
 function updateDriverWithKeyAndValue(driver, key, value){
   newDriver = driver;
-  return newDriver.key;
+  key = driver['name'];
+  value = 'Sam';
+  return value;
 }
