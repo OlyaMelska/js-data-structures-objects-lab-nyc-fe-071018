@@ -12,5 +12,5 @@ function updateDriverWithKeyAndValue(driver, key, value){
   if(key === newDriver.address){
     value = '11 Broadway';
   }
-  return newDriver.value;
+  return newDriver.key;
 }
