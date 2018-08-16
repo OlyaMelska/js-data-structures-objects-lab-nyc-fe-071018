@@ -9,11 +9,12 @@ function updateDriverWithKeyAndValue(driver, key, value){
   newObj[key] = value;
   return newObj;
 }
-/*
+
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
-  return Object.assign({}, driver, { [key]: value });
+  const newDriver = Object.assign({}, driver, { [key]: value });
+  return newDriver;
 }
-*/
+
 
 function deleteFromDriverByKey(driver, key){
   
