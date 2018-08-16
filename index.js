@@ -8,5 +8,5 @@ function updateDriverWithKeyAndValue(driver, key, value){
   let newDriver = driver;
   key = driver['name'];
   value = 'Sam';
-  return newDriver.name;
+  return newDriver;
 }
