@@ -1,7 +1,7 @@
 // Write your solution in this file!
 let driver = {
-  name : 'Sam',
-  address : '11 Broadway'
+  name : 'Olya',
+  address : '1004 Gates ave'
 }
 
 function updateDriverWithKeyAndValue(driver, key, value){
