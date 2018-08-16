@@ -6,10 +6,10 @@ let driver = {
 
 function updateDriverWithKeyAndValue(driver, key, value){
   let newDriver = driver;
-  if(key === newDriver['name']){
+  if(key === newDriver.name){
     value = 'Sam';
   }
-  if(key === newDriver['adress']){
+  if(key === newDriver.address){
     value = '11 Broadway';
   }
   return newDriver;
