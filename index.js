@@ -4,6 +4,11 @@ const driver = {
   address : '11 Broadway'
 }
 
+function updateDriverWithKeyAndValue(driver, key, value){
+  const newObj = { ...driver };
+  newObj[key] = value;
+  return newObj;
+}
 
 function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
   return Object.assign({}, driver, { [key]: value });
@@ -23,8 +28,3 @@ function destructivelyDeleteFromDriverByKey(driver, key){
 }
 
 
-function updateDriverWithKeyAndValue(driver, key, value){
-  const newObj = { ...driver };
-  newObj[key] = value;
-  return newObj;
-}
