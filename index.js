@@ -1,6 +1,6 @@
 // Write your solution in this file!
 let driver = {
-  name : 'Olya',
+  name : 'Sam',
   address : '1004 Gates ave'
 }
 
